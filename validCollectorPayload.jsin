@@ -1,0 +1,29 @@
+{
+    "payload": {
+        "actor": {
+            "id": 2643,
+            "name": "unique_msg_id",
+            "type": 0
+        },
+        "users": [
+            {
+                "id": "123"
+            }
+        ],
+        "product_push_timestamp": "2020-02-26T12:10:25+05:30",
+        "accept": false,
+        "lead_name":"IRIS_TEST_USER_2",
+        "model": "notification_test",
+        "uuid": "6f631cf6586211ea96ca0242ac110002",
+        "event_timestamp": "2020-02-26T06:37:18Z",
+        "account_full_domain": "betatest-share7new.freshvvs.com",
+        "action_epoch": 1582699038.7392385,
+        "action": "update",
+        "id":2643
+    },
+    "payload_version": "1.0.0",
+    "pod": "poduseast1",
+    "account_id": "99090",
+    "region": "us-east-1",
+    "payload_type": "test_notifications"
+}

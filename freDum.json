@@ -1,0 +1,189 @@
+{
+    "level": "debug",
+    "timeStamp": "2020-06-16T11:30:30.345Z",
+    "msg": "KAFKA_CONSUMER_MESSAGE",
+    "partition": "freshservice-central-approval-v2[0]@493507",
+    "event_state": "BEGAN-EVENT-PROCESSING",
+    "message_value": {
+        "data": {
+            "msg_id": "c89a1234afc411ea9ec37e1140634be1-approval_create",
+            "payload": {
+                "associations": {
+                    "approvable": {
+                        "group_id": 11000333228,
+                        "priority": {
+                            "id": 1,
+                            "name": "Low"
+                        },
+                        "sub_category": null,
+                        "subject": "Test 2",
+                        "display_id": 434,
+                        "associated_problem_count": 0,
+                        "associated_incident_count": 0,
+                        "owner_id": 11001819058,
+                        "requester_id": 11000861844,
+                        "impact": {
+                            "id": 1,
+                            "name": "Low"
+                        },
+                        "department_id": null,
+                        "risk": {
+                            "id": 1,
+                            "name": "Low"
+                        },
+                        "associated_change_caused_count": 0,
+                        "item_category": null,
+                        "requester_name": "Melissa Jovingo",
+                        "id": 11000090236,
+                        "release_id": null,
+                        "project_id": null,
+                        "status": {
+                            "id": 3,
+                            "name": "Awaiting Approval"
+                        },
+                        "human_display_id": "CHN-434",
+                        "planned_end_date": "2020-06-25T00:15:00-04:00",
+                        "associated_ci_count": 0,
+                        "category": null,
+                        "created_at": "2020-06-16T07:29:29-04:00",
+                        "import_id": null,
+                        "planned_start_date": "2020-06-17T08:15:00-04:00",
+                        "updated_at": "2020-06-16T07:30:29-04:00",
+                        "approval_status": {
+                            "id": 0,
+                            "name": "Requested"
+                        },
+                        "_model": "change",
+                        "deleted": false,
+                        "change_type": {
+                            "id": 3,
+                            "name": "Major"
+                        }
+                    },
+                    "member": {
+                        "name": "Vikash",
+                        "custom_fields": [],
+                        "email": "vikash.muthukrishnan@freshworks.com",
+                        "job_title": "",
+                        "privileges": "10378255463209038797776814117748735",
+                        "whitelisted": false,
+                        "user_role": null,
+                        "location_id": null,
+                        "id": 11002083328,
+                        "language": "en",
+                        "address": null,
+                        "created_at": "2020-01-17T09:15:19-05:00",
+                        "import_id": null,
+                        "helpdesk_agent": true,
+                        "time_format": "12h",
+                        "updated_at": "2020-06-16T06:58:46-04:00",
+                        "mobile": "",
+                        "deleted_at": null,
+                        "time_zone": "Eastern Time (US \u0026 Canada)",
+                        "deleted": false,
+                        "phone": "",
+                        "active": true
+                    },
+                    "user": {
+                        "name": "System",
+                        "custom_fields": [],
+                        "email": "system-noreply@arhaus.freshservice.com",
+                        "job_title": null,
+                        "privileges": "0",
+                        "whitelisted": false,
+                        "user_role": 1,
+                        "location_id": null,
+                        "id": 11000539710,
+                        "language": "en",
+                        "address": null,
+                        "created_at": "2018-12-20T15:46:08-05:00",
+                        "import_id": null,
+                        "helpdesk_agent": false,
+                        "time_format": "12h",
+                        "updated_at": "2018-12-20T15:46:08-05:00",
+                        "mobile": null,
+                        "deleted_at": null,
+                        "time_zone": "Eastern Time (US \u0026 Canada)",
+                        "deleted": false,
+                        "phone": null,
+                        "active": false
+                    }
+                },
+                "actor": {
+                    "id": 0,
+                    "name": "Change Workflow",
+                    "type": 16
+                },
+                "product_push_timestamp": "2020-06-16T07:30:30-04:00",
+                "accept": true,
+                "model": "Itil::Approval",
+                "model_properties": {
+                    "user_id": 11000539710,
+                    "delegatee_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.WzExMDAwMzU1ODg5LHRydWUsMTU5MjMwNzAzMF0.X7zde5QF1cCwaRAbiHSqyIDJGmuGfJ9L229eKfH2AdA",
+                    "member_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.WzExMDAwMzU1ODg5LGZhbHNlLDE1OTIzMDcwMzBd.5TueUl7yO2t914FMGwkUyQp7_bImd2fwcBRI6HzzxMM",
+                    "id": 11000355889,
+                    "delegatee_id": null,
+                    "created_at": "2020-06-16T07:30:30-04:00",
+                    "member_id": 11002083328,
+                    "updated_at": "2020-06-16T07:30:30-04:00",
+                    "approval_status": {
+                        "id": 0,
+                        "name": "requested"
+                    }
+                },
+                "mkp_accept": false,
+                "uuid": "c89a1234afc411ea9ec37e1140634be1",
+                "event_timestamp": "2020-06-16T11:30:30Z",
+                "changes": {
+                    "model_changes": {
+                        "state": ["*", "Requested"],
+                        "approvable_id": [null, 11000090236],
+                        "change_status_token": ["*", "requested"],
+                        "user_id": [null, 11000539710],
+                        "change": {
+                            "approval_status": ["*", "requested"]
+                        },
+                        "id": [null, 11000355889],
+                        "level_id": [1, 2],
+                        "account_id": [null, 218280],
+                        "approval_type": [null, 1],
+                        "member_name": ["*", "Vikash"],
+                        "created_at": [null, "2020-06-16T07:30:30-04:00"],
+                        "approvable_type": [null, "Itil::Change"],
+                        "member_id": [0, 11002083328],
+                        "updated_at": [null, "2020-06-16T07:30:30-04:00"],
+                        "approval_status": [null, 0]
+                    },
+                    "system_changes": [{
+                        "id": 11000327137,
+                        "name": "Major Change Cab Approvals",
+                        "properties": {
+                            "current_event_name": "Status is changed from planning to awaiting approval "
+                        },
+                        "changes": {}
+                    }],
+                    "misc_changes": {}
+                },
+                "account_full_domain": "arhaus.freshservice.com",
+                "event_info": {
+                    "ip_address": null,
+                    "message_uuid": "208f9654-6359-4a4d-a04d-eac510449ef7"
+                },
+                "action_epoch": 1592307030.2385123,
+                "action": "create"
+            },
+            "payload_version": "1.0.0",
+            "service": "freshservice",
+            "pod": "poduseast1",
+            "account_id": "218280",
+            "region": "us-east-1",
+            "payload_type": "approval_create"
+        },
+        "meta": {
+            "central": {
+                "request_id": "54375eeb-f424-426f-a2b1-d3cc8a017609",
+                "collected_at": 1592307030334
+            }
+        }
+    }
+}
