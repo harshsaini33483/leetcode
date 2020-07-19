@@ -44,8 +44,8 @@ public class july13 {
             return false;
         }
         if(!dfs(tree1.right, tree2.right)){
-            return false
+            return false;
         }
- 
+        return true;
     }
 }
