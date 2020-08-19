@@ -51,7 +51,6 @@ public class july27 {
        
        treeNode.right= BuildInOrderTree(hsMap.get(postorder[num])+1, end, inorder, postorder, hsMap);
 
-
        treeNode.left = BuildInOrderTree(start, hsMap.get(postorder[num])-1, inorder, postorder,hsMap);
 
        return treeNode;
