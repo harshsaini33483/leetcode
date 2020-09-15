@@ -1,3 +1,4 @@
+package code;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -61,9 +62,9 @@ public class aug30 {
     }
 }
 
-3 2 4 1
-2 3 4 1
-4 3 2 1
+// 3 2 4 1
+// 2 3 4 1
+// 4 3 2 1
 
 
-2 3 4
+// 2 3 4
